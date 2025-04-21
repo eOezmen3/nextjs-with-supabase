@@ -23,5 +23,5 @@ jobs:
           node-version: 22
 
       - run: npm install yarn
-      - run: yarn instal
+      - run: yarn install
       - run: yarn test
