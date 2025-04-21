@@ -30,7 +30,7 @@ export default function SignUpUserSteps() {
             >
               update your Supabase project
             </Link>{" "}
-            with redirect URLs based on your Vercel deployment URLs.
+            with redirect some URLs based on your Vercel deployment URLs.
           </p>
           <ul className="mt-4">
             <li>
