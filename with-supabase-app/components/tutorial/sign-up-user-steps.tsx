@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { TutorialStep } from "./tutorial-step";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react"
+import Link from "next/link"
+import { TutorialStep } from "./tutorial-step"
 
 export default function SignUpUserSteps() {
   return (
@@ -11,7 +11,7 @@ export default function SignUpUserSteps() {
           <p>It looks like this App is hosted on Vercel.</p>
           <p className="mt-4">
             This particular deployment is
-            <span className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium text-secondary-foreground border">
+            <span className="rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xs font-medium text-secondary-foreground border">
               "{process.env.VERCEL_ENV}"
             </span>{" "}
             on
@@ -21,7 +21,7 @@ export default function SignUpUserSteps() {
             .
           </p>
           <p className="mt-4">
-            You will need to{" "}
+            You will have to{" "}
             <Link
               className="text-primary hover:text-foreground"
               href={
@@ -30,7 +30,7 @@ export default function SignUpUserSteps() {
             >
               update your Supabase project
             </Link>{" "}
-            with redirect URLs based on your Vercel deployment URLs.
+            with redirect some URLs based on your Vercel deployment URLs.
           </p>
           <ul className="mt-4">
             <li>
@@ -84,5 +84,5 @@ export default function SignUpUserSteps() {
         </p>
       </TutorialStep>
     </ol>
-  );
+  )
 }
