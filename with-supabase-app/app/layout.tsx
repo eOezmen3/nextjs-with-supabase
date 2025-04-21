@@ -64,7 +64,8 @@ export default function RootLayout({
                     className="font-bold hover:underline"
                     rel="noreferrer"
                   >
-                    Supabase done by Emre
+                    Supabase with Emre Oezmen
+
                   </a>
                 </p>
                 <ThemeSwitcher />
