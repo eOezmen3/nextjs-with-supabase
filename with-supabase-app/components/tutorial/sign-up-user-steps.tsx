@@ -21,7 +21,7 @@ export default function SignUpUserSteps() {
             .
           </p>
           <p className="mt-4">
-            You will need to{" "}
+            You will have to{" "}
             <Link
               className="text-primary hover:text-foreground"
               href={
