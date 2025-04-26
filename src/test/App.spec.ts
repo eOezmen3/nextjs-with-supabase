@@ -1,7 +1,11 @@
 import { describe, expect } from "@jest/globals"
 
 describe("App tests", () => {
-  it("should contains the heading 1", () => {
+  it("should pass", () => {
     expect(false).toBeFalsy()
+  })
+
+  it("should fail", () => {
+    expect(true).toBeFalsy()
   })
 })
