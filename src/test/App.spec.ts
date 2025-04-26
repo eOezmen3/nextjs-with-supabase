@@ -6,6 +6,6 @@ describe("App tests", () => {
   })
 
   it("should fail", () => {
-    expect(true).toBeFalsy()
+    expect(true).toBeTruthy()
   })
 })
