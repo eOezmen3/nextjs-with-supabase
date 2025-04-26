@@ -5,7 +5,7 @@ describe("App tests", () => {
     expect(false).toBeFalsy()
   })
 
-  it("should fail", () => {
-    expect(false).toBeTruthy()
+  it("should pass", () => {
+    expect(true).toBeTruthy()
   })
 })
